@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<viewpods.SignInViewPod xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rlSignInWithFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_xxlarge"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:background="@drawable/background_sign_in_button"
+        android:paddingStart="@dimen/margin_xxlarge">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:layout_centerVertical="true"
+            android:src="@drawable/facebook" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSignInWithFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/ivFacebook"
+            android:backgroundTint="@color/white"
+            android:text="@string/lbl_sign_in_with_facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="@dimen/text_regular_3x" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlSignInWithGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_xxlarge"
+        android:layout_below="@+id/rlSignInWithFacebook"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium2"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:background="@drawable/background_sign_in_button"
+        android:paddingStart="@dimen/margin_xxlarge">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:layout_centerVertical="true"
+            android:src="@drawable/google" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSignInWithGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/ivGoogle"
+            android:backgroundTint="@color/white"
+            android:text="@string/lbl_sign_in_with_google"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="@dimen/text_regular_3x" />
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlSignInWithGoogle"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium2"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:background="@drawable/background_confirm_button"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_regular_3x"
+        android:textStyle="bold" />
+</viewpods.SignInViewPod>

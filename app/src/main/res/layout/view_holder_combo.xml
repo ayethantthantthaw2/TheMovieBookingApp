@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/margin_medium"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvComboTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combo set M"
+        android:textSize="@dimen/text_regular_2x"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSnackPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/margin_xlarge"
+        android:text="15$"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_regular_2x"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvComboSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvComboTitle"
+        android:layout_marginTop="@dimen/margin_medium2"
+        android:layout_marginRight="@dimen/margin_xxxLarge"
+        android:text="Combo size M22oz Coke(x1)\nMedium Pop con (x1)"
+        android:textSize="@dimen/text_small" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSnackPrice"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_medium2">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvMinus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/background_count"
+            android:paddingStart="@dimen/margin_small"
+            android:text="-"
+            android:gravity="center"
+            android:textSize="@dimen/text_regular_2x" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tVCount"
+            android:layout_width="20dp"
+            android:gravity="center"
+            android:layout_height="20dp"
+            android:background="@drawable/background_count"
+            android:paddingStart="@dimen/margin_small"
+            android:text="0"
+            android:textSize="@dimen/text_regular_2x" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAdd"
+            android:layout_width="20dp"
+            android:gravity="center"
+            android:layout_height="20dp"
+            android:background="@drawable/background_count"
+            android:paddingStart="@dimen/margin_small"
+            android:text="+"
+            android:textSize="@dimen/text_regular_2x" />
+    </LinearLayout>
+
+</RelativeLayout>

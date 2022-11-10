@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TheMovieBookingApp</string>
+    <string name="lbl_welcome">Welcome!</string>
+    <string name="lbl_get_started">Get Started</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_welcome_back">Welcome back,login to continue</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_phone_number">Phone Number</string>
+    <string name="lbl_sign_in_with_facebook">Sign in with facebook</string>
+    <string name="lbl_sign_in_with_google">Sign in with google</string>
+    <string name="lbl_plot_summary">Plot Summary</string>
+    <string name="description_story_line">Lured to a Japan he hasn\'t seen since World War II, century-old mutant Wolverine (Hugh Jackman) finds himself in a shadowy realm of yakuza and samurai. Wolverine is pushed to his physical and emotional brink when he is forced to go on the run with a powerful industrialist\'s daughter (Tao Okamoto) and is confronted -- for the first time.</string>
+    <string name="lbl_cast">Cast</string>
+    <string name="lbl_login">Login</string>
+    <string name="lbl_register">Sign in</string>
+    <string name="lbl_comingSoon">Coming Soon</string>
+    <string name="lbl_drawerOpen">Open</string>
+    <string name="lbl_drawerClose">Close</string>
+    <string name="lbl_payment_method">Payment Method</string>
+    <string name="lbl_add_new_card">Add New Card</string>
+    <string name="lbl_enter_promo_code">Enter Promo Code</string>
+    <string name="lbl_promo_code">Don\'t have any promo code?</string>
+    <string name="lbl_get_it_now">Get it now</string>
+    <string name="lbl_sub_total">Sub total:</string>
+    <string name="lbl_this_is_your_ticket">This is your ticket.</string>
+
+</resources>

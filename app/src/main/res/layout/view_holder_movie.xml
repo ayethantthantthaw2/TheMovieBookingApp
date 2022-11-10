@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_medium"
+    android:layout_marginStart="@dimen/margin_medium2"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvMovieImage"
+        app:cardCornerRadius="@dimen/margin_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivMovie"
+        android:layout_width="@dimen/width_movie_image"
+        android:layout_height="@dimen/height_movie_image"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/mp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMovieName"
+        android:layout_below="@+id/cvMovieImage"
+        android:text="Wonder Park"
+        android:textSize="@dimen/text_smaller"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMovieGenre"
+        android:layout_below="@id/tvMovieName"
+        android:text="Animation/Family -"
+        android:layout_marginStart="@dimen/text_smaller"
+        android:layout_alignStart="@+id/cvMovieImage"
+        android:textSize="@dimen/margin_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMovieLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMovieName"
+        android:layout_alignEnd="@id/cvMovieImage"
+        android:layout_toEndOf="@+id/tvMovieGenre"
+        android:text="1hr 26min"
+        android:textSize="@dimen/text_smaller" />
+</RelativeLayout>

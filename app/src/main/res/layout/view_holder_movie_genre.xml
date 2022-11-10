@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlMovieGenre1"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/margin_xlarge"
+    android:layout_marginStart="@dimen/margin_medium2"
+    android:background="@drawable/bacckground_text_genre"
+    android:paddingStart="@dimen/margin_medium2"
+    android:paddingTop="@dimen/margin_medium"
+    android:paddingEnd="@dimen/margin_medium2">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:text="Mystery" />
+
+</RelativeLayout>
